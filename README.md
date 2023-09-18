@@ -1,6 +1,6 @@
 # Hi there 👋, My name is Matthew Evans
 
-<img width="100%" src="https://github-profile-page-creator.netlify.app/assets/images/github/github-header.png" alt="my banner">
+<img width="100%" src="/docs/assets/images/github/github-header-image.png" alt="my banner">
 
 I'm a tech geek that enjoys challenging problems, mentoring others, and learning new technologies. I bring a K.I.S.S. approach to everything I do.
 
