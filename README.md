@@ -35,7 +35,7 @@ My job is to bridge technological grand canyons. I can do this because I have a 
 ## 🌟 Github Badges
 <p>
 <img src="/docs/assets/images/github/badge-arctic.png" height="24px">
-<img src="/docs/assets/images/github/badge-pullshark" height="24px">
+<img src="/docs/assets/images/github/badge-pullshark.png" height="24px">
 <img src="/docs/assets/images/github/badge-quickdraw.png" height="24px">
 <img src="/docs/assets/images/github/badge-yolo.png" height="24px">
 </p>
