@@ -37,6 +37,9 @@ markdown_extensions:
   - tables
   
 extra:
+  analytics:
+    provider: google
+    property: G-W6JP27VWDB
   consent:
     actions:
       - accept
