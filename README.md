@@ -8,12 +8,12 @@ My job is to bridge technological grand canyons. I can do this because I have a 
 
 ## 💫 Little Bit More About Me
 <p>🔭 I'm currently working on this mkdocs documentation site</p>
-<p>🌱 I'm currently learning python, flask, more devsecops</p>
+<p>🌱 I'm currently learning python, flask, moar devsecops!</p>
 <p>💬 Ask me about Cloud, DevOps, InfoSec</p>
-<p>📫 How to reach me? matt@secunit.io</p>
-<p>Want to know more? <a href="https://portfolio.secunit.io">go to my portfolio</a></p>
-<p>Know about my experiences <a href="https://cdn.secunit.io/resume/matthew-evans-current.pdf">here</a></p>
-<p>⚡ Fun Fact: I devour Military SciFi and love to chat about my pretty snazzy homelab.</p>
+<p>📫 How to reach me? <a href="mailto:matt@secunit.io">matt@secunit.io</a></p>
+<p>🙋🏻 Want to know more? <a href="https://portfolio.secunit.io">go to my portfolio</a></p>
+<p>📃 Check out my resume <a href="https://cdn.secunit.io/resume/matthew-evans-current.pdf">here</a></p>
+<p>👾 Fun Fact: I devour Military SciFi and love to chat about my pretty snazzy homelab.</p>
 
 ## 💻 Skills
 <p>
@@ -34,14 +34,8 @@ My job is to bridge technological grand canyons. I can do this because I have a 
 
 ## 🌟 Github Badges
 <p>
-<img src="https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/acbadge.gif" height="24px">
-<img src="https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/starbadge.gif" height="24px">
-<img src="https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/pro.gif" height="24px">
+<img src="/docs/assets/images/github/badge-arctic.png" height="24px">
+<img src="/docs/assets/images/github/badge-pullshark" height="24px">
+<img src="/docs/assets/images/github/badge-quickdraw.png" height="24px">
+<img src="/docs/assets/images/github/badge-yolo.png" height="24px">
 </p>
-
-## 🏆 GitHub Trophies
-
-<p><img src="https://github-profile-trophy.vercel.app/?username=x86txt">
-</p>
-
-## 📊 Github Status
