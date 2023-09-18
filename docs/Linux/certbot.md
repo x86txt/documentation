@@ -20,7 +20,7 @@ Obtain a cloudflare API token [from here](https://dash.cloudflare.com/profile/ap
 - [x] Create Token
 
 <figure markdown>
-![Cloudflare API Token](/assets/images/cloudflareapitoken.png){ loading=lazy }
+![Cloudflare API Token](/assets/images/certbot/cloudflareapitoken.png){ loading=lazy }
 <figcaption>example of my api token</figcaption>
 </figure>
 
@@ -57,3 +57,10 @@ $ sudo certbot certonly --dns-cloudflare \
         /etc/letsencrypt/live/<your.domain>/{cert.pem,chain.pem,fullchain.pem,privkey.pem}
 
     The two you'll probably want to use most often are cert.pem and privkey.pem.
+
+And finally, certbot should have created a crontab entry for you to automatically renew the certificate. You can check this two ways, but as noted in the cron.d file, the systemd service is the one that actually handles the renewal.
+
+``` shell
+$ sudo cat /etc/cron.d/certbot
+$ systemctl status certbot.timer
+```
