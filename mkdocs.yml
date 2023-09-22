@@ -21,19 +21,24 @@ markdown_extensions:
   - def_list
   - footnotes
   - md_in_html
+  - pymdownx.caret
+  - pymdownx.critic
   - pymdownx.details
   - pymdownx.emoji
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true
+  - pymdownx.keys
   - pymdownx.inlinehilite
+  - pymdownx.mark
   - pymdownx.snippets
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.tasklist:
       custom_checkbox: true
+  - pymdownx.tilde
   - tables
   
 extra:
