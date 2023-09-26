@@ -70,3 +70,6 @@ plugins:
       draggable: true
       auto_caption: false
       caption_position: bottom
+validation:
+  absolute_links: ignore
+
