@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # vmware:iscsimpio
 
 This is a quick note on how to enable iSCSI Multi-Path Input/Output aka MPIO for an VMware iSCSI Datastore.

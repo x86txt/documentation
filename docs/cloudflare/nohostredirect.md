@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # cloudflare:nohost:redirect
 
 If you want to perform a redirect for a domain, but don't have an actual server hosted anywhere, you can do this at Cloudflare by creating an A record for the domain with an IP of 192.0.2.1.

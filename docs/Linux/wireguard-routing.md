@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # wireguard:routing:speed
 
 If you've got a box on your home networking acting as a site-to-site router with a wireguard tunnel to the other site and you'r experiencing sub-par routing performance, these tweaks might just be for you.

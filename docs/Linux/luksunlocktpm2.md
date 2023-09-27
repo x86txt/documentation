@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # luks\:unlock:tpm2
 
 !!! note

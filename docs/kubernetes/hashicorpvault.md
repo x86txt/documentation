@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # hashicorp:vault:ad:auth
 
 This is how to configure [Hashicorp Vault](https://www.vaultproject.io/) for Active Directory Authentication.[^1]

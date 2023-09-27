@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # luks\:unlock:password
 
 This is a quick and dirty way to automatically unlock your luks volume at boot.[^1]

@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # bash:tipsntricks
 
 This is a collections of useful bash shell tips and tricks I've learned over the years.
