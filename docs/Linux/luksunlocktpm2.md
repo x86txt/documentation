@@ -1,4 +1,4 @@
-# luks\:unlock:tpm2
+# luks:unlock:tpm2
 
 !!! note
 

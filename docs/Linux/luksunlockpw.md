@@ -1,4 +1,4 @@
-# luks\:unlock:password
+# luks:unlock:password
 
 This is a quick and dirty way to automatically unlock your luks volume at boot.[^1]
 [^1]: source: [https://michael-prokop.at/blog/2023/03/22/automatically-unlocking-a-luks-encrypted-root-filesystem-during-boot/](https://michael-prokop.at/blog/2023/03/22/automatically-unlocking-a-luks-encrypted-root-filesystem-during-boot/)
