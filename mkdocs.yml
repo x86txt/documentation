@@ -1,6 +1,7 @@
 site_name: Home
 theme:
   name: material
+  custom_dir: overrides
   palette:
     - scheme: default
       toggle:
@@ -14,6 +15,16 @@ theme:
         name: Switch to light mode
   features:
     - content.code.copy
+    - navigation.footer
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - search.suggest
+    - search.share
+  icon:
+    repo: fontawesome/brands/github
 
 markdown_extensions:
   - admonition
@@ -58,7 +69,15 @@ extra:
       make our documentation better.
     cookies:
       analytics: Google Analytics
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/x86txt
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/mevanssecurity/
+    - icon: fontawesome/brands/discord
+      link: https://discordapp.com/users/463527597507215370
 plugins:
+  - search
   - glightbox:
       touchNavigation: true
       loop: false
@@ -72,4 +91,6 @@ plugins:
       caption_position: bottom
 validation:
   absolute_links: ignore
-
+copyright: Copyright &copy; 2020 - 2023 Matthew Evans
+repo_url: https://github.com/x86txt/documentation
+repo_name: x86txt/documentation
