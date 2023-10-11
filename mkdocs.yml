@@ -20,9 +20,11 @@ theme:
     - navigation.instant.prefetch
     - navigation.tracking
     - navigation.tabs
-    - navigation.sections
+    - navigation.top
+    - # navigation.sections
     - search.suggest
     - search.share
+    - toc.integrate
   icon:
     repo: fontawesome/brands/github
 
