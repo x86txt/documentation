@@ -65,5 +65,3 @@ server {
   }
 }
 ```
-
-If you want to see a config for DNS over TLS (DoT), see here: <a href="./dotproxy.md">dotproxy.md</a>
