@@ -15,3 +15,6 @@ $ kubectl delete ns --grace-period=0 --force --namespace prometheus
 $ kubectl delete pod --grace-period=0 --force --namespace <namespace> \
   pod1 pod2 pod3 pod4 pod5
 ```
+``` shell title="clear k8s cluster dns cache"
+kubectl rollout restart deployment coredns -n kube-system
+```
