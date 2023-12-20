@@ -11,7 +11,7 @@ test:
       when: always
     - when: never
   script:
-  - mkdocs build --strict --verbose --site-dir test
+  - pip install -r requirements.txt && mkdocs build --strict --verbose --site-dir test
   artifacts:
     paths:
     - test
