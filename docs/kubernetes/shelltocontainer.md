@@ -1,4 +1,4 @@
-# kubernetes:`shell`:container
+# kubernetes:\shell:container
 
 This is how to get a shell to a specific container within a pod.
 
