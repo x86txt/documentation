@@ -16,9 +16,16 @@ test:
 pages:
   stage: deploy
   script:
-  - mkdocs build --strict --verbose
+  - mkdocs build --strict --verbose && scp -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -r ./docs/** \
+    $USERNAME@$HOST:/mnt/nvme/k3s/webserver/html/docs/
   artifacts:
     paths:
     - docs
   rules:
     - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
+  before_script:
+    - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
+    - eval $(ssh-agent -s)
+    - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add - > /dev/null
+    - mkdir -p ~/.ssh
+    - chmod 700 ~/.ssh
