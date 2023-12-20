@@ -2,9 +2,18 @@ image: python:3.12-buster
 
 before_script:
   - pip install -r requirements.txt
+  - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
+  - eval $(ssh-agent -s)
+  - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add - > /dev/null
+  - mkdir -p ~/.ssh
+  - chmod 700 ~/.ssh
 
 test:
   stage: test
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "main"'
+      when: always
+    - when: never
   script:
   - mkdocs build --strict --verbose --site-dir test
   artifacts:
@@ -13,15 +22,13 @@ test:
 
 pages:
   stage: deploy
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "main"'
+      when: always
+    - when: never
   script:
   - mkdocs build --strict --verbose && scp -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -r ./docs/** \
     $USERNAME@$HOST:/mnt/nvme/k3s/webserver/html/docs/
   artifacts:
     paths:
     - docs
-  before_script:
-    - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
-    - eval $(ssh-agent -s)
-    - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add - > /dev/null
-    - mkdir -p ~/.ssh
-    - chmod 700 ~/.ssh
