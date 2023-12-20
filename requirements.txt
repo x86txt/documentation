@@ -4,3 +4,6 @@ mkdocs>=1.1.2
 # Add your custom theme if not inside a theme_dir
 # (https://github.com/mkdocs/mkdocs/wiki/MkDocs-Themes)
 mkdocs-material>=9.*
+
+# so we can perform our test
+pytest>=7.4.3
