@@ -9,12 +9,10 @@ I'm a tech geek that enjoys challenging problems, mentoring others, and learning
 My job is to bridge technological grand canyons. I can do this because I have a foundation of over 20 years of experience in IT, more than 15 years of experience in security, and over a decade of experience in cloud computing. I've worked with startups, small businesses, and large enterprises. I build top-performing teams, I manage budgets, I'm adept at communicating complex topics to all levels of an organization, and I do it all while rolling up my sleeves and remaining a doer. I love what I do and my enthusiasm is often found to be contagious across the organization.
 
 ## 💫 Little Bit More About Me
-<p>🔭 I'm currently working on this mkdocs documentation site</p>
+<p>🔭 I'm currently working on this mkdocs documentation site.</p>
 <p>🌱 I'm currently learning python, flask, moar devsecops!</p>
-<p>💬 Ask me about Cloud, DevOps, InfoSec</p>
+<p>💬 Ask me about Cloud, DevOps, InfoSec, SRE.</p>
 <p>📫 How to reach me? <a href="mailto:matt@secunit.io">matt@secunit.io</a></p>
-<p>🙋🏻 Want to know more? <a href="https://portfolio.secunit.io">go to my portfolio</a></p>
-<p>📃 Check out my resume <a href="https://cdn.secunit.io/resume/matthew-evans-current.pdf">here</a></p>
 <p>👾 Fun Fact: I devour Military SciFi and love to chat about my pretty snazzy homelab.</p>
 
 ## 💻 Skills

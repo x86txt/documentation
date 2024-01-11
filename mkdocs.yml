@@ -93,6 +93,6 @@ plugins:
       caption_position: bottom
 validation:
   absolute_links: ignore
-copyright: Copyright &copy; 2020 - 2023 Matthew Evans
+copyright: Copyright &copy; 2020 - 2024 Matthew Evans
 repo_url: https://github.com/x86txt/documentation
 repo_name: x86txt/documentation
