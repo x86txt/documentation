@@ -7,3 +7,9 @@ $ kubectl get secret <secret_name> -n <source namespace> -o yaml \
   | sed s/"namespace: <source namespace>"/"namespace: <destination_namespace>"/\
   | kubectl apply -n dmz -f -
 ```
+
+If you ever need to et the value of a stord and encoded secret, the following should help:
+
+``` shell title="get k8s secret"
+$ sudo kubectl get -n <namespace> secrets/<secret-name> -o json | jq '.data | map_values(@base64d)'
+```
